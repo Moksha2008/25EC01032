@@ -5,7 +5,7 @@ import matplotlib
 import scipy
 
 print("Python version:", sys.version)
-print("NumPy version:", numpy.__version__)
+print("NumPy version ece bbb:", numpy.__version__)
 print("Pandas version:", pandas.__version__)
 print("Matplotlib version:", matplotlib.__version__)
 print("SciPy version:", scipy.__version__)
