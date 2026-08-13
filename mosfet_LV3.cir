@@ -1,0 +1,13 @@
+MOSFET Level 3 Id-Vds sweep
+.model NMOS3 NMOS (LEVEL=3 VTO=-0.4758 KP=1.3812e-4 GAMMA=0.1668 PHI=0.7144
++ TOX=10e-9 NSUB=1e16 THETA=0 VMAX=0 KAPPA=0.2)
+
+M1 D G 0 0 NMOS3 W=4u L=0.18u
+VDS D 0 0
+VGS G 0 0
+
+.control
+dc VDS 0 4 0.05 VGS 1 3 1
+wrdata level3_output.csv v(d) i(vds) v(g)
+.endc
+.end
