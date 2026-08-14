@@ -18,3 +18,5 @@ print("minor change 1, lets go!!")
 
 print("minor change 3, lets go!!")
 print("Roll Number: 25EC01032 ")
+
+plt.title("My second plot")
