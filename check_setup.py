@@ -6,7 +6,7 @@ import scipy
 
 print("Python version:", sys.version)
 
-print("NumPy version: is good ", numpy.__version__)
+print("NumPy version: is bad", numpy.__version__)
 
 
 print("Pandas version:", pandas.__version__)
